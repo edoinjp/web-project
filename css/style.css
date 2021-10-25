@@ -127,6 +127,7 @@ p {
   font: 500;
 }
 .add-to-bag {
+  display: flex;
   font-size: 16px;
   font-family: "Permanent Marker", cursive;
   border: none;
@@ -136,6 +137,8 @@ p {
   margin-top: 30px;
   color: white;
   font-weight: 600;
+  align-items: center;
+  justify-content: center;
 }
 .logo {
   width: 100px;
