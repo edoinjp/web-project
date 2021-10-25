@@ -52,7 +52,6 @@ a {
 }
 
 /*shoping section  */
-
 .shop {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -99,7 +98,6 @@ a {
   padding-right: 70px;
   padding-top: 20px;
   width: 15px;
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   font-size: 26px;
   text-shadow: 4px 8px 28px rgba(0, 0, 0, 0.582);
 }
@@ -110,23 +108,12 @@ a {
   height: 1px;
   display: inline-block;
   background-color: rgb(0, 0, 0);
-  /* margin: 0 31px; */
 }
 .shop-section {
   background-color: #f9fcff;
   background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
 }
-/* slider */
 
-/* location */
-.location {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 750px;
-  width: 100%;
-  background-image: url("../img/map-background.jpg");
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
-}
 .price {
   font-size: x-large;
   text-shadow: rgba(0, 0, 0, 0.678) 1px 0 10px;
@@ -139,8 +126,6 @@ p {
 .add-to-bag {
   font-size: 16px;
   font-family: "Permanent Marker", cursive;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   border: none;
   width: 180px;
   height: 50px;
@@ -152,4 +137,46 @@ p {
 .logo {
   width: 100px;
   height: 100px;
+}
+/* footer */
+.location {
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+  background-image: url("../img/map-background.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footerimg {
+  height: 500px;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.loc {
+  color: #dee4ea;
+  margin-left: 350px;
+  margin-top: 200px;
+  font-family: "Permanent Marker", cursive;
+}
+/* scrollbar */
+/*  */
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.699);
+  background-color: rgba(146, 146, 146, 0.705);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  outline: 1px solid rgb(49, 49, 49);
 }

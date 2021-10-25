@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-page1.html">
     <title >EDDY'S</title>
   </head>
   <body>
@@ -26,10 +27,9 @@
         <div>
           <ul class="ul">
             <li><a class="curent-page" href="#">HOME</a></li>
-            <li><a href="#">SHOP</a></li>
+            <li><a href="#shop1">SHOP</a></li>
             <li><a href="#">GALERY</a></li>
-            <li><a href="#">LOCATION</a></li>
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#location1">ABOUT US</a></li>
           </ul>
         </div>
       </nav>
@@ -41,12 +41,10 @@
 
     <section class="shop-section">
       <div class="shopid">
-        
-        <h3 class="shop-id">SHOP</h3>
-        
-        
+       
+        <h3 class="shop-id">SHOP</h3>   
       </div>
-      <div class="shop">
+      <div class="shop" id="shop1">
         <div class="shop-box">
           <img class="img1" src="../web-project/img/vinil1.jpg" alt="img1" />
         </div>
@@ -54,7 +52,7 @@
           <h3 class="creator">Glitterbox - Where Love Lives (Volume 1)</h3>
           <p class="price">¥ 2499</p>
           <p>Dimitri From Paris, The Shapeshifters, Mike Dunn & more</p>
-          <a href="../index.html"></a> <button class="add-to-bag">ADD TO BAG</button></a>
+          <a href="index-page1.html" target="_blank" > <button class="add-to-bag">ADD TO BAG</button></a>
         </div>
         <div class="shop-box">
           <img class="img1" src="../web-project/img/vinil2.jpg" alt="#" />
@@ -86,8 +84,15 @@
       </div>
     </section>
 
-    <section>
-      <div class="location"></div>
-    </section>
+    <footer class="location" id="location1">
+      <div class="footer-info" >
+        <img class="footerimg" src="img/tokyoimg.jpg" alt="footerimg">
+      </div>
+      <div class="loc">
+        <h4>35.686960</h4>
+          <h4>139.749460</h4>
+      </div>
+      
+    </footer>
   </body>
 </html>
