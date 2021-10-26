@@ -224,9 +224,23 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.1);
 }
 /* video */
+.video-section {
+  display: flex;
+  justify-content: center;
+  background-color: #d4d4d4;
+  background-image: linear-gradient(147deg, #e9e9e9 0%, #dee4ea 74%);
+}
 .video {
   display: flex;
   width: 800px;
   height: 400px;
-  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 50px 60px -7px;
+  border-radius: 40px;
+}
+.video:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(147deg, #4d4c4c 0%, #757575 74%);
+  box-shadow: rgb(38, 57, 77) 0px 60px 60px -7px;
 }
