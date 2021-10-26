@@ -223,3 +223,10 @@ body::-webkit-scrollbar-thumb {
 .footerimg:hover {
   transform: scale(1.1);
 }
+/* video */
+.video {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
