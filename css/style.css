@@ -95,22 +95,30 @@ a {
   height: auto;
 }
 .shop-id {
+  display: flex;
   font-family: "Permanent Marker", cursive;
-  width: 200px;
-  margin: auto;
-  padding-right: 70px;
+  width: 100px;
+  margin: 0 auto;
   padding-top: 20px;
-  width: 15px;
   font-size: 26px;
   text-shadow: 4px 8px 28px rgba(0, 0, 0, 0.582);
 }
 
 .shop-id::before {
   content: "";
-  width: 70px;
-  height: 1px;
+  width: 2px;
+  height: 26px;
   display: inline-block;
   background-color: rgb(0, 0, 0);
+  margin-right: 2px;
+}
+.shop-id::after {
+  content: "";
+  width: 2px;
+  height: 26px;
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  margin-left: 3px;
 }
 .shop-section {
   background-color: #f9fcff;
