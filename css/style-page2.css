@@ -84,20 +84,7 @@ a {
   -moz-box-shadow: 0px 0px 8px 2px rgb(38, 57, 77);
   box-shadow: 0px 0px 8px 2px rgb(38, 57, 77);
 }
-/* scrollbar */
-body::-webkit-scrollbar {
-  width: 1em;
-}
 
-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.699);
-  background-color: rgba(167, 167, 167, 0.705);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);
-  outline: 1px solid rgb(49, 49, 49);
-}
 /* animations */
 .zoom:hover {
   transform: scale(1.5);
