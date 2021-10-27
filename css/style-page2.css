@@ -69,7 +69,9 @@ a {
   margin-left: 170px;
   box-shadow: rgb(38, 57, 77) 10px 30px 40px -20px;
 }
-
+.shopping-page {
+  text-decoration: underline;
+}
 .div::after {
   margin: 0 auto;
   content: "";
