@@ -1,0 +1,68 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.store-name {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+}
+.logo {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.mainimg {
+  margin-top: 70px;
+  width: 400px;
+}
+.eddys-1 {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: rgb(201, 201, 201) 1px 0 10px;
+}
+.eddys {
+  font-size: 130px;
+  color: azure;
+  margin-top: 170px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: rgb(194, 194, 194) 1px 0 10px;
+}
+
+.ul {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: rgb(206, 206, 206) 1px 0 10px;
+}
+a {
+  color: white;
+}
+/*  */
+.b2 {
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+.buy {
+  display: flex;
+  justify-content: space-between;
+}
+.discroption {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 250px;
+  justify-content: space-around;
+}
+.img2 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin-top: 90px;
+  margin-left: 170px;
+  box-shadow: rgb(38, 57, 77) 10px 30px 40px -20px;
+}
