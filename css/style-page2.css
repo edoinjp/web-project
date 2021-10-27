@@ -51,22 +51,26 @@ a {
 .vin3,
 .vin4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .discroption {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  margin-right: 250px;
-  justify-content: space-around;
+  /* margin-right: 250px; */
+  justify-content: space-evenly;
+}
+.buy {
+  display: flex;
+  justify-content: space-evenly;
 }
 .img2 {
   display: flex;
   width: 500px;
   height: 500px;
   margin-top: 90px;
-  margin-left: 170px;
+  margin-right: 200px;
   box-shadow: rgb(38, 57, 77) 10px 30px 40px -20px;
 }
 .shopping-page {
