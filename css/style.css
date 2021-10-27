@@ -237,6 +237,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 30px;
 }
 .video-section {
+  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: #d4d4d4;
@@ -256,4 +257,3 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(147deg, #4d4c4c 0%, #757575 74%);
   box-shadow: rgb(38, 57, 77) 0px 60px 60px -7px;
 }
-
