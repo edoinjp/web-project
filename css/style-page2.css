@@ -96,3 +96,26 @@ a {
 .img2:hover {
   transform: scale(1.1);
 }
+.buttons {
+  font-family: "Permanent Marker", cursive;
+  background-color: whitesmoke;
+  width: 70px;
+  height: 30px;
+  border: none;
+  margin-right: 5px;
+}
+.buttons:hover {
+  border-radius: 0% 100% 100% 0% / 50% 50% 50% 50%;
+}
+.vinname {
+  font-size: large;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 15px 31px 5px rgba(196, 196, 196, 0.29);
+}
+p {
+  color: whitesmoke;
+  font-family: "Chakra Petch", sans-serif;
+  font: 500;
+  text-shadow: rgba(190, 190, 190, 0.678) 1px 0 10px;
+}
