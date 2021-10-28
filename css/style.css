@@ -152,7 +152,7 @@ p {
   flex-direction: row;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 780px;
   width: 100%;
   background-image: url("../img/map-background.jpg");
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
@@ -170,11 +170,19 @@ p {
 }
 .loc {
   color: #dee4ea;
-  margin-left: 350px;
+  margin-left: 250px;
   margin-top: 200px;
   font-family: "Permanent Marker", cursive;
   user-select: none;
+  text-align: center;
 }
+.footerli {
+  margin-top: 10px;
+}
+.footerli:hover {
+  transform: scale(1.2);
+}
+
 /* scrollbar */
 /*  */
 
@@ -241,4 +249,12 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.1);
   background-image: linear-gradient(147deg, #4d4c4c 0%, #757575 74%);
   box-shadow: rgb(38, 57, 77) 0px 60px 60px -7px;
+}
+/* discription */
+.discription {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.discription2 {
+  font-family: "Permanent Marker", cursive;
 }
