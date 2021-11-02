@@ -99,19 +99,21 @@ a {
 .buttons {
   font-family: "Permanent Marker", cursive;
   background-color: whitesmoke;
-  width: 70px;
-  height: 30px;
+  width: 90px;
+  height: 40px;
   border: none;
   margin-right: 5px;
+  font-size: 20px;
 }
 .buttons:hover {
   border-radius: 0% 100% 100% 0% / 50% 50% 50% 50%;
 }
 .vinname {
-  font-size: large;
+  font-size: 20px;
+
   color: whitesmoke;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 15px 31px 5px rgba(196, 196, 196, 0.29);
+  text-shadow: 15px 31px 5px rgba(196, 196, 196, 0.14);
 }
 p {
   color: whitesmoke;

@@ -85,7 +85,7 @@ a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .creator {
-  text-shadow: 15px 31px 5px rgba(0, 0, 0, 0.29);
+  text-shadow: 15px 31px 5px rgba(0, 0, 0, 0.14);
   margin-bottom: 60px;
   font-size: 26px;
   font-weight: 500;
@@ -156,10 +156,10 @@ p {
   width: 100%;
   background-image: url("../img/map-background.jpg");
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
+  
 }
 .footer-info {
   display: flex;
-  justify-content: space-between;
 }
 .footerimg {
   height: 500px;

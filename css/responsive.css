@@ -1,0 +1,35 @@
+@media (max-width: 1300px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .loc {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 980px) {
+  .location {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footerimg {
+    margin-left: 40px;
+  }
+  .loc {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 660px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15px;
+  }
+  .shop-box {
+    margin: 0 auto;
+  }
+}
