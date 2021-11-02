@@ -20,6 +20,14 @@
   .loc {
     margin-left: 100px;
   }
+  .listen,
+  .listen1 {
+    display: none;
+  }
+  .video {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 660px) {
   .shop {
