@@ -53,7 +53,14 @@ header {
 a {
   color: white;
 }
-
+.div-burgerbar{
+  color: var(--color-1);
+  font-size: 30px;
+  position: absolute;
+  top:40px;
+  right: 40px;
+  display: none;
+}
 /*shoping section  */
 .shop {
   display: grid;

@@ -29,7 +29,7 @@
     margin-bottom: 30px;
   }
 }
-@media (max-width: 660px) {
+@media (max-width: 670px) {
   .shop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -40,4 +40,13 @@
   .shop-box {
     margin: 0 auto;
   }
+  .div-burgerbar{
+    display: block;
+  } 
+
+  .ul{
+    display: none;
+  }
+
+
 }
