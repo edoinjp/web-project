@@ -4,7 +4,7 @@ header {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 .curent-page {
   text-decoration: underline;
@@ -163,7 +163,7 @@ p {
   flex-direction: row;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 780px;
+  height: 850px;
   width: 100%;
   background-image: url("../img/map-background.jpg");
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
