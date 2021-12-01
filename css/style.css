@@ -67,6 +67,9 @@ a {
 .fas{
   color:azure;
 }
+body {
+  overflow-x: hidden; 
+}
 /*shoping section  */
 .shop {
   display: grid;

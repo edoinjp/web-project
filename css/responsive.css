@@ -38,7 +38,7 @@
     margin-top: 15px;
   }
   .shop-box {
-    margin: 0 auto;
+    margin: 20px auto;
   }
   .div-burgerbar{
     display: block;
@@ -46,6 +46,9 @@
 
   .ul{
     display: none;
+  }
+  .shop-info{
+    margin:25px auto;
   }
 
 
