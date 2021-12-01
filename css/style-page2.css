@@ -44,7 +44,7 @@ a {
 }
 /*  */
 .b2 {
-  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  background: linear-gradient(to left, rgb(82, 74, 74), rgb(110, 109, 109) 50%, rgba(49, 49, 49, 0.801) 75%, rgba(83, 72, 72, 0.836) 75%);
 }
 .vin1,
 .vin2,
@@ -113,13 +113,13 @@ a {
 
   color: whitesmoke;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 15px 31px 5px rgba(196, 196, 196, 0.14);
+  text-shadow: 15px 31px 5px rgba(0, 0, 0, 0.233);
 }
 p {
   color: whitesmoke;
   font-family: "Chakra Petch", sans-serif;
   font: 500;
-  text-shadow: rgba(190, 190, 190, 0.678) 1px 0 10px;
+  text-shadow: rgba(0, 0, 0, 0.884) 1px 0 10px;
 }
 /* burger */
 .div-burgerbar{
