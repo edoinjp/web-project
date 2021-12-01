@@ -46,10 +46,14 @@
 
   .ul{
     display: none;
+    width: auto;
   }
   .shop-info{
     margin:25px auto;
   }
-
+  .ul-active{
+    display: block;
+    width: auto;
+  }
 
 }
