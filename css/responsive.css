@@ -81,6 +81,9 @@
     
 
   }
+  .abu{
+    text-align: center;
+  }
   .loc {
     margin: 0 auto;
     align-items: center;
@@ -103,6 +106,11 @@
   .footerli{
     width: 320px;
   }
+  .footerimg{
+    width: 300px;height: auto;
+
+  }
+  
   
   
 }
@@ -113,8 +121,6 @@
   .shop-box{
     width: 320px;
   }
-  .footerimg{
-    width: 320px;
-  }
+  
   
 }
