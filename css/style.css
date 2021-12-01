@@ -54,12 +54,18 @@ a {
   color: white;
 }
 .div-burgerbar{
-  color: var(--color-1);
+  color: var(--color-2);
   font-size: 30px;
   position: absolute;
   top:40px;
   right: 40px;
   display: none;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: #fc0 1px 0 10px;
+
+}
+.fas{
+  color:azure;
 }
 /*shoping section  */
 .shop {
