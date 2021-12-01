@@ -1,0 +1,19 @@
+@media (max-width: 670px) {
+    
+   
+    .div-burgerbar{
+      display: block;
+    } 
+  
+    .ul{
+      display: none;
+      width: auto;
+    }
+   
+    .ul-active{
+      display: block;
+      width: auto;
+    }
+  
+  }
+  

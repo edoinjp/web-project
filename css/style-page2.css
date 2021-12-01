@@ -121,3 +121,20 @@ p {
   font: 500;
   text-shadow: rgba(190, 190, 190, 0.678) 1px 0 10px;
 }
+/* burger */
+.div-burgerbar{
+  color: var(--color-2);
+  font-size: 30px;
+  position: absolute;
+  top:25px;
+  right: 40px;
+  display: none;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: whitesmoke;
+  cursor: pointer;
+  text-shadow: rgba(190, 190, 190, 0.678) 1px 0 10px;
+
+}
+.fas{
+  color:azure;
+}

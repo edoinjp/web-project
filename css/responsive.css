@@ -37,6 +37,10 @@
     grid-auto-rows: minmax(100px, auto);
     margin-top: 15px;
   }
+  .eddys{
+    font-size: 110px;
+  }
+  
   .shop-box {
     margin: 20px auto;
   }
@@ -48,12 +52,46 @@
     display: none;
     width: auto;
   }
-  .shop-info{
-    margin:25px auto;
+  .footer-info{
+    margin: 0 auto;
   }
   .ul-active{
     display: block;
     width: auto;
   }
+  .shop-info{
+    margin: 0 auto;
+  }
+  .load{
+    margin-top: 25px;
+  }
+  /* footer */
+  .location{
+    display: flex;
+    flex-direction: column;
+    height: auto +25;
+  }
+  .footerimg {
+    margin: 0 auto;
+    
+    align-items: center;
+    
 
+  }
+  .loc {
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+}
+@media (max-width: 450px){
+  .eddys{
+    font-size:80px;
+  }
+  .ul-active{
+    padding-left: 20px;
+  }
+  .div-burgerbar{
+    right: 10px;
+  }
 }
