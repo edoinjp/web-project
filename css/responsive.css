@@ -94,4 +94,17 @@
   .div-burgerbar{
     right: 10px;
   }
+  
+  
+}
+@media (max-width: 350px){
+  .img1{
+    width: 320px;
+  }
+  .shop-box{
+    width: 320px;
+  }
+  .footerimg{
+    width: 320px;
+  }
 }
