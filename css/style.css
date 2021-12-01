@@ -57,7 +57,7 @@ a {
   color: var(--color-2);
   font-size: 30px;
   position: absolute;
-  top:40px;
+  top:25px;
   right: 40px;
   display: none;
   font-family: "Permanent Marker", cursive;
