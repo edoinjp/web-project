@@ -82,6 +82,9 @@
     margin: 0 auto;
     align-items: center;
   }
+  .eddys-1{
+    width: 100px;
+  }
   
 }
 @media (max-width: 450px){
@@ -107,4 +110,5 @@
   .footerimg{
     width: 320px;
   }
+  
 }
