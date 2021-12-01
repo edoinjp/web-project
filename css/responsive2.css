@@ -1,3 +1,26 @@
+@media (max-width: 1000px) {
+  .vin1,
+  .vin2,
+  .vin3,
+  .vin4 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+  }
+  .img2{
+    margin-right: auto ;
+  }
+  
+
+}
+@media(max-width:800px){
+  .img2{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+
 @media (max-width: 670px) {
     
    
@@ -14,6 +37,45 @@
       display: block;
       width: auto;
     }
+    .div-burgerbar{
+      right: 20px;
+    }
+    .eddys-1{
+      width: 100px;
+    }
+
+  .vin1,
+  .vin2,
+  .vin3,
+  .vin4{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  }
+  .img2{
+    margin-top: 20px;
+    
+  }
+  .discroption{
+    margin-top: 0;
+    height: 200px;
+  }
+
   
+  }
+  @media (max-width:400px){
+    .img2{
+      width: 320px;
+      height: 320px;
+      margin: 0 auto;
+    }
+    .navigation{
+      margin-bottom: 30px;
+    }
+    .discroption{
+      margin-top: 20px;
+      width: 320px;
+    }
   }
   
